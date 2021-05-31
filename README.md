@@ -1,4 +1,4 @@
-# GenericTimeline
+# PlatformEventNotifications
 Use declarative tools like Flows and Processes to send toast notifications 🍞🔔 and/or confetti 🎊 to your Salesforce users.
 
 Note: refer to [Salesforce's messaging documentation](https://www.lightningdesignsystem.com/guidelines/messaging/components/toasts/ "Salesforce's messaging documentation") for toasts before implementing your own - this ensures users receive consistent feedback methods and that you are aligned to the Lightning Design system.
@@ -26,13 +26,17 @@ Note: refer to [Salesforce's messaging documentation](https://www.lightningdesig
 
 ## Examples
 The finished product:
+
 ![image1](/images/toast.PNG)
 
 Flow setup:
+
 ![image2](/images/flow.PNG)
 
 Process Builder setup:
+
 ![image3](/images/pb.PNG)
+
 ## Use cases
 - After saving a record, alerting users that a record meets (or doesn't meet) certain criteria without using a validation rule
 e.g. 'Record has all required information added and is ready to be submitted for approval'
